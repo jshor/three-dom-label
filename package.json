@@ -2,7 +2,7 @@
   "name": "three-dom-label",
   "version": "0.1.0",
   "description": "Attaches HTML span elements as a Three.js object",
-  "main": "index.js",
+  "main": "dist/three-dom-label.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jshor/three-dom-label.git"
