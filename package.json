@@ -1,6 +1,6 @@
 {
   "name": "three-dom-label",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Attaches HTML span elements as a Three.js object",
   "main": "dist/three-dom-label.js",
   "repository": {
