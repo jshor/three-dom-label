@@ -24,6 +24,15 @@ export default class ThreeDomLabel extends Object3D {
   }
 
   /**
+   * Sets the class name of the DOM element.
+   * 
+   * @param {String} className
+   */
+  setClass = (className) => {
+    this.span.className = className;
+  }
+
+  /**
    * Adds the label from the scene.
    *
    * @private

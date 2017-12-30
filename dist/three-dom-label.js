@@ -120,6 +120,13 @@ var ThreeDomLabel = function (_Object3D) {
 
 
   /**
+   * Sets the class name of the DOM element.
+   * 
+   * @param {String} className
+   */
+
+
+  /**
    * Adds the label from the scene.
    *
    * @private
@@ -198,6 +205,13 @@ var _initialiseProps = function _initialiseProps() {
     writable: true,
     value: function value() {
       document.body.removeChild(_this2.span);
+    }
+  });
+  Object.defineProperty(this, 'setClass', {
+    enumerable: true,
+    writable: true,
+    value: function value(className) {
+      _this2.span.className = className;
     }
   });
   Object.defineProperty(this, '_mount', {
